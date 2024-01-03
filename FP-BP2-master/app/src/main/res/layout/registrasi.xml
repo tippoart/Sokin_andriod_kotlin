@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Login">
+        <ImageView
+            android:layout_width="62dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="87dp"
+            android:src="@drawable/logo"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Register"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/garistepihitam"
+            android:hint="Email"
+            android:textSize="13dp"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingLeft="15dp"></EditText>
+
+        <EditText
+            android:id="@+id/edt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/garistepihitam"
+            android:hint="Nama Lengkap"
+            android:textSize="13dp"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingLeft="15dp"></EditText>
+
+        <EditText
+            android:id="@+id/edt_pass"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/garistepihitam"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="13dp"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingLeft="15dp"></EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Sign Up"
+            android:backgroundTint="#0C3B2E"
+            android:layout_marginHorizontal="50dp"
+            android:id="@+id/btn_login"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"></Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Sudah punya akun? "></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Sign In"
+                android:textStyle="bold"
+                android:id="@+id/txt_signin"></TextView>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_slide3"
+            android:layout_gravity="center"
+            android:layout_marginTop="41dp"></ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_kembali"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/icon_kembali"></ImageView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

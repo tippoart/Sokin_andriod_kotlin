@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".Produk_Ubah">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profil"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#0C3B2E"
+        android:textSize="20dp"
+        android:layout_gravity="center"></TextView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email User"
+        android:textColor="#0C3B2E"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <EditText
+        android:id="@+id/edt_emailUser"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/garistepihitam"
+        android:paddingLeft="15dp"
+        android:textSize="13dp"
+        android:textColor="#0C2B3E"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password User"
+        android:textColor="#0C3B2E"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/garistepihitam"
+        android:paddingLeft="15dp"
+        android:textSize="13dp"
+        android:textColor="#0C2B3E"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama User"
+        android:textColor="#0C3B2E"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <EditText
+        android:id="@+id/edt_namaUser"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/garistepihitam"
+        android:paddingLeft="15dp"
+        android:textSize="13dp"
+        android:textColor="#0C2B3E"/>
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#0C3B2E"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Simpan"
+        android:textSize="12dp"></Button>
+
+</LinearLayout>

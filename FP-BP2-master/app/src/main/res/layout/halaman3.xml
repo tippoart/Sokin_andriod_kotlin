@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Halaman3">
+    <ImageView
+        android:layout_width="62dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="87dp"
+        android:src="@drawable/logo"></ImageView>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-40dp"
+        android:src="@drawable/jus_jeruk"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ztshagoregular"
+            android:text="Sok.In Juice - Orange Juice"
+            android:layout_gravity="center"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Selamat datang di tempat favorit untuk pencinta kuliner !"
+            android:layout_gravity="center"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Kami hadir dengan cita rasa yang tak terlupakan."
+            android:layout_gravity="center"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Mari rasakan kelezatan di setiap gigitan."
+            android:layout_gravity="center"></TextView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="20dp"
+        android:src="@drawable/icon_slide2"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_kembali"
+            android:layout_marginRight="5dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/icon_kembali"></ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_lanjut"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/icon_lanjut"></ImageView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

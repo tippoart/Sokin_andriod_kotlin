@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:elevation="4dp"
+    android:id="@+id/cardview">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="17dp"
+        android:paddingLeft="17dp">
+
+        <ImageView
+            android:id="@+id/iv_foto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_image" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_kategori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="#0C3B2E"
+                android:text="Kategori"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_produk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0C3B2E"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Nama Produk"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txt_harga"
+                android:layout_width="wrap_content"
+                android:textColor="#0C3B2E"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Harga"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+        <!-- Edit icon -->
+        <ImageView
+            android:id="@+id/iv_hapus"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/delete" />
+
+        <!-- Delete icon -->
+        <ImageView
+            android:id="@+id/iv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@id/iv_hapus"
+            android:layout_alignBottom="@id/iv_hapus"
+            android:src="@drawable/edit" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

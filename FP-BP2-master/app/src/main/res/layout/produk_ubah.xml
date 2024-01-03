@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".Produk_Ubah">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubah Produk"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#0C3B2E"
+        android:textSize="20dp"
+        android:layout_gravity="center"></TextView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori"
+        android:textColor="#0C3B2E"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <EditText
+        android:id="@+id/edt_kategori"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/garistepihitam"
+        android:hint="Masukkan Kategori"
+        android:paddingLeft="15dp"
+        android:textSize="13dp"
+        android:textColor="#0C2B3E"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Produk"
+        android:textColor="#0C3B2E"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <EditText
+        android:id="@+id/edt_produk"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/garistepihitam"
+        android:hint="Masukkan Nama Produk"
+        android:paddingLeft="15dp"
+        android:textSize="13dp"
+        android:textColor="#0C2B3E"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga"
+        android:textColor="#0C3B2E"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <EditText
+        android:id="@+id/edt_harga"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/garistepihitam"
+        android:hint="Masukkan Harga (contoh: Rp 10.000)"
+        android:paddingLeft="15dp"
+        android:textSize="13dp"
+        android:textColor="#0C2B3E"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Foto"
+        android:textColor="#0C3B2E"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/iv_upload"
+        android:scaleType="centerCrop"
+        android:background="@drawable/upload"></ImageView>
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#0C3B2E"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Simpan"
+        android:textSize="12dp"></Button>
+
+</LinearLayout>

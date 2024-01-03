@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboardd">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/logohijau"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Flavor"
+                android:textColor="#0C3B2E"
+                android:textSize="50dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="that define joy"
+                android:textSize="21dp"
+                android:textColor="#0C3B2E"
+                android:fontFamily="@font/poppins_bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/garistepihitam"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="Apa yang ingin anda cari?"
+                android:paddingLeft="15dp"
+                android:textSize="12dp"
+                android:textColor="#0C3B2E"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Promo"
+                android:textColor="#0C3B2E"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="131dp"
+                android:background="@drawable/promo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Best Seller"
+                android:textColor="#0C3B2E"
+                android:textSize="15dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- CardView 1 -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <!-- ImageView untuk gambar -->
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="163dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/jus_jeruk" />
+
+                            <!-- TextView untuk teks -->
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Orange Juice"
+                                android:textColor="#0C3B2E"
+                                android:textSize="12dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:padding="8dp"
+                                android:gravity="center"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- CardView 2 -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <!-- ImageView untuk gambar -->
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="163dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/icecream_coklat" />
+
+                            <!-- TextView untuk teks -->
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Ice Cream Chocolate"
+                                android:textColor="#0C3B2E"
+                                android:textSize="12dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:padding="8dp"
+                                android:gravity="center"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- CardView 3 -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="10dp">
+
+                        <!-- Konten CardView 3 -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <!-- ImageView untuk gambar -->
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="163dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/snackbar" />
+
+                            <!-- TextView untuk teks -->
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Chocolate Snackbar"
+                                android:textColor="#0C3B2E"
+                                android:textSize="12dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:padding="8dp"
+                                android:gravity="center"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- CardView 4 -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="10dp">
+
+                        <!-- Konten CardView 4 -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <!-- ImageView untuk gambar -->
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="163dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/burger" />
+
+                            <!-- TextView untuk teks -->
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Burger"
+                                android:textColor="#0C3B2E"
+                                android:textSize="12dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:padding="8dp"
+                                android:gravity="center"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Rekomendasi"
+                android:textColor="#0C3B2E"
+                android:textSize="15dp"/>
+
+            <!-- CardView 1_1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:layout_margin="10dp">
+
+                <!-- Konten CardView 1 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp">
+
+                    <!-- ImageView untuk gambar -->
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/strawberry_soda" />
+
+                    <!-- LinearLayout untuk teks -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="15dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="Sok.in Drink"
+                            android:paddingLeft="10dp"
+                            android:textColor="#0C3B2E"
+                            android:textSize="8dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Strawberry Soda"
+                            android:textSize="15dp"
+                            android:textColor="#0C3B2E"
+                            android:fontFamily="@font/poppins_bold"
+                            android:paddingLeft="8dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 15.000"
+                            android:textSize="20dp"
+                            android:textColor="#0C3B2E"
+                            android:fontFamily="@font/poppins_regular"
+                            android:paddingLeft="8dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 2_2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:layout_margin="10dp">
+
+                <!-- Konten CardView 2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp">
+
+                    <!-- ImageView untuk gambar -->
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kentang_goreng" />
+
+                    <!-- LinearLayout untuk teks -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="15dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="Sok.in Food"
+                            android:paddingLeft="10dp"
+                            android:textColor="#0C3B2E"
+                            android:textSize="8dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Frenchise"
+                            android:textSize="15dp"
+                            android:textColor="#0C3B2E"
+                            android:fontFamily="@font/poppins_bold"
+                            android:paddingLeft="8dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Rp 10.000"
+                            android:textSize="20dp"
+                            android:textColor="#0C3B2E"
+                            android:fontFamily="@font/poppins_regular"
+                            android:paddingLeft="8dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

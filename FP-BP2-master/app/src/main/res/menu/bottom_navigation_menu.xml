@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nv_dashboard"
+        android:icon="@drawable/icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/nv_menu"
+        android:icon="@drawable/icon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Menu" />
+    <item
+        android:id="@+id/nv_profil"
+        android:icon="@drawable/icon5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Profile" />
+</menu>
